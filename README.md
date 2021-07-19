@@ -1,1 +1,3 @@
-# softmaterial-template
+npm install
+
+npm run dev
