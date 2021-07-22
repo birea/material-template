@@ -25,19 +25,11 @@ class Map extends React.Component {
             zoom: 12,
         }
     }
-    ddd() {
-        console.log("dddd");
-        this.setState({
-            center: { lat: 10, lng: 10 }
-        })
-        console.log(this.state.center)
-    }
     render() {
         const { classes } = this.props;
         return (
             <React.Fragment>
                 <Paper className={classes.paper}>
-                    <button onClick={this.ddd.bind(this)}>dfdfderer</button>
                     <Box className={classes.box}>
                         <GoogleMapReact
                             bootstrapURLKeys={{ key: "" }}

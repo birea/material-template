@@ -8,6 +8,7 @@ import Checkout from './component/checkout/Checkout';
 import SignUp from './component/auth/SignUp';
 import SignIn from './component/auth/SignIn';
 import Map from './component/Map';
+import CreditCard from './component/CreditCard'
 
 const routes = [
     // {
@@ -62,6 +63,12 @@ const routes = [
         path: "/googlemap",
         name: "GoogleMap",
         component: Map,
+        layout: ""
+    },
+    {
+        path: "/creditcard",
+        name: "CreditCard",
+        component: CreditCard,
         layout: ""
     }
 ]

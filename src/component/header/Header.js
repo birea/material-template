@@ -313,6 +313,11 @@ export default function DesktopHeader(props) {
                                             Google Map
                                         </Link>
                                     </MenuItem>
+                                    <MenuItem onClick={handleClose}>
+                                        <Link href="/creditcard" underline="none">
+                                            Credit Card
+                                        </Link>
+                                    </MenuItem>
                                 </MenuList>
                             </ClickAwayListener>
                         </Paper>
@@ -494,6 +499,11 @@ export default function DesktopHeader(props) {
                                 <Typography className={classes.mobilelistitem}>
                                     <Link href="/googlemap" underline="none">
                                         Google Map
+                                    </Link>
+                                </Typography>
+                                <Typography className={classes.mobilelistitem}>
+                                    <Link href="/creditcard" underline="none">
+                                        Credit Card
                                     </Link>
                                 </Typography>
                             </AccordionDetails>
