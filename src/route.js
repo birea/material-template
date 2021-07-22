@@ -7,6 +7,7 @@ import StickyFooter from './component/StickyFooter';
 import Checkout from './component/checkout/Checkout';
 import SignUp from './component/auth/SignUp';
 import SignIn from './component/auth/SignIn';
+import Map from './component/Map';
 
 const routes = [
     // {
@@ -57,7 +58,12 @@ const routes = [
         component: Checkout,
         layout: ""
     },
-    
+    {
+        path: "/googlemap",
+        name: "GoogleMap",
+        component: Map,
+        layout: ""
+    }
 ]
 
 export default routes;
