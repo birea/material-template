@@ -6,6 +6,7 @@ import ElasticCarousel from './ElasticCarousel';
 import PureCarousel from './PureCarousel';
 import Embla from './EmblaCarousel/Embla';
 import ReactAliceCarousel from './ReactAliceCarousel';
+import CardCarousel from './CardCarousel';
 
 export default function Carousel() {
     return (
@@ -25,6 +26,8 @@ export default function Carousel() {
             <Embla />
             <p className="py-8 text-center text-xl font-bold uppercase">react-alice-carousel module</p>
             <ReactAliceCarousel />
+            <p className="py-8 text-center text-xl font-bold uppercase">react-card-carousel module</p>
+            <CardCarousel />
         </React.Fragment>
     );
 }
