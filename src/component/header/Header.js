@@ -318,6 +318,16 @@ export default function DesktopHeader(props) {
                                             Credit Card
                                         </Link>
                                     </MenuItem>
+                                    <MenuItem onClick={handleClose}>
+                                        <Link href="/social" underline="none">
+                                            Social
+                                        </Link>
+                                    </MenuItem>
+                                    <MenuItem onClick={handleClose}>
+                                        <Link href="/carousel" underline="none">
+                                            Carousel
+                                        </Link>
+                                    </MenuItem>
                                 </MenuList>
                             </ClickAwayListener>
                         </Paper>
@@ -504,6 +514,16 @@ export default function DesktopHeader(props) {
                                 <Typography className={classes.mobilelistitem}>
                                     <Link href="/creditcard" underline="none">
                                         Credit Card
+                                    </Link>
+                                </Typography>
+                                <Typography className={classes.mobilelistitem}>
+                                    <Link href="/social" underline="none">
+                                        Social
+                                    </Link>
+                                </Typography>
+                                <Typography className={classes.mobilelistitem}>
+                                    <Link href="/carousel" underline="none">
+                                        Carousel
                                     </Link>
                                 </Typography>
                             </AccordionDetails>

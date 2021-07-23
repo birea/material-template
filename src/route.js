@@ -8,7 +8,9 @@ import Checkout from './component/checkout/Checkout';
 import SignUp from './component/auth/SignUp';
 import SignIn from './component/auth/SignIn';
 import Map from './component/Map';
-import CreditCard from './component/CreditCard'
+import CreditCard from './component/CreditCard';
+import Social from './component/Social';
+import Carousel from './component/Carousel/Carousel';
 
 const routes = [
     // {
@@ -69,6 +71,18 @@ const routes = [
         path: "/creditcard",
         name: "CreditCard",
         component: CreditCard,
+        layout: ""
+    },
+    {
+        path: "/social",
+        name: "Social",
+        component: Social,
+        layout: ""
+    },
+    {
+        path: "/carousel",
+        name: "Carousel",
+        component: Carousel,
         layout: ""
     }
 ]
