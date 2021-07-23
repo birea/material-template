@@ -1,0 +1,66 @@
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+  /* flex-direction: column; */
+  /* vertical styles*/
+  /* height: 100%; */
+}
+.embla__slide {
+  position: relative;
+  flex: 0 0 100%;
+  /* vertical styles*/
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  /* background-color: #33be4aa6; */
+}
+
+/* Vertical Carousel Styles */
+
+.nested-embla {
+  overflow: hidden;
+  height: 100%;
+  /* background: bisque; */
+}
+.nested-embla__container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.nested-embla__slide {
+  position: relative;
+  flex: 0 0 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: #9845e686; */
+}
+
+/* Buttons */
+
+.prevButton,
+.nextButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: white;
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
+  border-radius: 1em;
+  padding: 0.25em 0.5em;
+}
+
+.prevButton,
+.nextButton:focus {
+  outline: none;
+}
+
+.prevButton {
+  left: 10%;
+}
+
+.nextButton {
+  right: 10%;
+}

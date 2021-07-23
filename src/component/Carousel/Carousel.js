@@ -4,6 +4,7 @@ import ReactSlick from './ReactSlick';
 import NukaCorousel from './NukaCarousel';
 import ElasticCarousel from './ElasticCarousel';
 import PureCarousel from './PureCarousel';
+import Embla from './EmblaCarousel/Embla';
 
 export default function Carousel() {
     return (
@@ -19,6 +20,8 @@ export default function Carousel() {
             <ElasticCarousel />
             <p className="py-8 text-center text-xl font-bold uppercase">pure-react-carousel module</p>
             <PureCarousel />
+            <p className="py-8 text-center text-xl font-bold uppercase">embla-carousel module</p>
+            <Embla />
         </React.Fragment>
     );
 }

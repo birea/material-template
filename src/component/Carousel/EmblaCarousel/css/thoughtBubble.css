@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+svg {
+  height: 0;
+  width: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: lavender; */
+}
+
+.shadow-wrap {
+  filter: drop-shadow(-3px 3px 15px rgba(0, 0, 0, 0.5));
+  height: 100%;
+  width: 100%;
+}
+
+.clip-container {
+  position: relative;
+  height: 100%;
+  background: white;
+  -webkit-clip-path: url(#thought_bubble_clip);
+  clip-path: url(#thought_bubble_clip);
+  display: flex;
+  flex-direction: row;
+}
+
+.image-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.image-inner,
+.vert-image-inner {
+  height: 100%;
+  width: 100%;
+}
+
+.image {
+  max-width: 70%;
+  max-height: 70%;
+  margin: 0 auto;
+  display: block;
+  filter: drop-shadow(-3px 3px 15px rgba(0, 0, 0, 0.5));
+}
