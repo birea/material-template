@@ -7,6 +7,7 @@ import PureCarousel from './PureCarousel';
 import Embla from './EmblaCarousel/Embla';
 import ReactAliceCarousel from './ReactAliceCarousel';
 import CardCarousel from './CardCarousel';
+import InfinityCarousel from './InfinityCarousel';
 
 export default function Carousel() {
     return (
@@ -28,6 +29,8 @@ export default function Carousel() {
             <ReactAliceCarousel />
             <p className="py-8 text-center text-xl font-bold uppercase">react-card-carousel module</p>
             <CardCarousel />
+            <p className="py-8 text-center text-xl font-bold uppercase">infinite-react-carousel module</p>
+            <InfinityCarousel />
         </React.Fragment>
     );
 }
